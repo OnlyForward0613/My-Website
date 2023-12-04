@@ -12,6 +12,7 @@
     "@emailjs/browser": "^3.10.0",
     "@react-three/drei": "^9.56.24",
     "@react-three/fiber": "^8.11.1",
+    "@tweenjs/tween.js": "^21.0.0",
     "framer-motion": "^9.0.7",
     "maath": "^0.5.2",
     "react": "^18.2.0",
@@ -19,7 +20,11 @@
     "react-router-dom": "^6.8.1",
     "react-tilt": "^0.1.4",
     "react-vertical-timeline-component": "^3.6.0",
-    "three": "^0.149.0"
+    "three": "^0.149.0",
+    "three-css3drenderer": "^1.0.1",
+    "three-trackballcontrols": "^0.9.0",
+    "tween.js": "^16.6.0",
+    "web3": "^4.2.2"
   },
   "devDependencies": {
     "@types/react": "^18.0.27",

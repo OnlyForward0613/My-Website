@@ -25,6 +25,20 @@ import {
   threejs,
 } from "../assets";
 
+import {
+  cars,
+  hotel,
+  nft_marketplace,
+  nft1,
+  nft_minting,
+  shop,
+  translate,
+  online,
+  car,
+  canvan, 
+  mockup
+} from "../assets/projects";
+
 export const navLinks = [
   {
     id: "about",
@@ -42,7 +56,7 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "MERN Stack Developer",
     icon: web,
   },
   {
@@ -54,9 +68,14 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "CMS Developer",
     icon: creator,
   },
+  {
+    title: "Blockchain Developer",
+    icon: mobile,
+  },
+  
 ];
 
 const technologies = [
@@ -116,24 +135,28 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
+    title: "Frontend Developer, Kiandra",
+    company_name: "Remote",
     icon: starbucks,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "March July - Feb 2017",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Built frontend web application with React.js",
+      "Analyzed client needs and design software solution",
+      "Analyzed client needs and design software solution",
+      "Built REST API with Node.js, Express.js",
+      "Worked with other teams for debugging",
+      "Conducted A/B Testing to identify bugs and UI improvements",
+      "Prototyped an average of 10 new product features in one year",
+      "Launched 6 websites including 2 large business websites"
     ],
   },
   {
     title: "React Native Developer",
-    company_name: "Tesla",
+    company_name: "Remote",
     icon: tesla,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Feb 2017 - Aug 2018",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -142,29 +165,32 @@ const experiences = [
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
+    title: "Full Stack Developer, Appello Software",
+    company_name: "Remote",
     icon: shopify,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Aug 2018 - Jan 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Worked with an agile team of 12 members and provided end-toend solutions for clients• Designed and implement new features using React.js",
+      "Train 4 people the front-end basics and helped them developfurther",
+      "Developed 20 responsive modern websites for clients in a variety of industries mostly in e-commerce",
+      "Presented and conveyed ideas and designs with 4+ technical teams and 12+ business partners.",
+      "Developed 40+ applications following Agile product development methodologies.",
+      "Designed, built and automated data flows to save 10+ hours of tedious work per week.",
+      "Wrote front-end code, back-end code, integrated 4+ with frameworks andAPIs, and utilized multiple CLI tools and configuration GUI's.Led architecture, design, and development of 30+ new features."
     ],
   },
   {
-    title: "Full stack Developer",
+    title: "Full stack developer",
     company_name: "Meta",
     icon: meta,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "Jan 2021 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Designed and implemented user-friendly web applications using Next, React, Angular, Vue and Node.js",
+      "Developed back-end systems using Python and Node.js,integrating with MongoDB and MySQL databases",
+      "Optimized the ERP platform for scalability and performance,using techniques such as server-side rendering and caching toimprove load times.",
+      "Developed a robust testing framework, using Jest and Enzyme, toensure the platform was functioning as expected and to catchany potential bugs before they reached the end-user.",
     ],
   },
 ];
@@ -198,9 +224,9 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Car Shop",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "React based platfrom for company to sell cars.",
     tags: [
       {
         name: "react",
@@ -215,20 +241,20 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: cars,
     source_code_link: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: "Hotel booking platform",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "This is online hetel booking platform.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "graphQL",
         color: "green-text-gradient",
       },
       {
@@ -236,16 +262,16 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
+    image: hotel,
     source_code_link: "https://github.com/",
   },
   {
-    name: "Trip Guide",
+    name: "Clothes Shop",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Supermarket for selling clothes for people.",
     tags: [
       {
-        name: "nextjs",
+        name: "react",
         color: "blue-text-gradient",
       },
       {
@@ -257,7 +283,175 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: shop,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Translation Platform",
+    description:
+      "Language translate for a lot of contries",
+    tags: [
+      {
+        name: "AI",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "NLP",
+        color: "green-text-gradient",
+      },
+      {
+        name: "react",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: translate,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Online learning",
+    description:
+      "Online learning including English, Developing, Game",
+    tags: [
+      {
+        name: "AI",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "React",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Django",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: online,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Mockup Design",
+    description:
+      "Smart phone mockup design using Figma, and responsive UI design",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Figma",
+        color: "green-text-gradient",
+      },
+      {
+        name: "UI/UX",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: mockup,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Cars Platform",
+    description:
+      "Online car shops",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "graphQL",
+        color: "green-text-gradient",
+      },
+      {
+        name: "NestJS",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: car,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Project Management",
+    description:
+      "Platform for dev management",
+    tags: [
+      {
+        name: "AI",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "NLP",
+        color: "green-text-gradient",
+      },
+      {
+        name: "react",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: canvan,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "NFT Minting",
+    description:
+      "NFT minting for NFT marketplace",
+    tags: [
+      {
+        name: "NFT",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Blockchain",
+        color: "green-text-gradient",
+      },
+      {
+        name: "reactJS",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: nft_minting,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "NFT Marketplace",
+    description:
+      "NFT marketplace for people.",
+    tags: [
+      {
+        name: "blockchain",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "NFT",
+        color: "green-text-gradient",
+      },
+      {
+        name: "nextJS",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: nft_marketplace,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "NFT Marketplace",
+    description:
+      "NFT marketplace website for users",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "supabase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: nft1,
     source_code_link: "https://github.com/",
   },
 ];

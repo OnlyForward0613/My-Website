@@ -1,11 +1,23 @@
 import { motion } from "framer-motion";
-
+import Earth from './Earth'
+import { useEffect } from "react";
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
 
 const Hero = () => {
+
+  useEffect(() => {
+    var typed = new Typed('.typing',{
+      strings: ["a Developer", "an Engineer", "a Researcher"],
+      loop: true,
+      typeSpeed: 65,
+      backSpeed: 65
+    });
+  }, [])
+
   return (
     <section className={`relative w-full h-screen mx-auto`}>
+      
       <div
         className={`absolute inset-0 top-[120px] max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
       >
@@ -16,16 +28,17 @@ const Hero = () => {
 
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi, I'm <span className="text-[#915EFF]">Liron</span>
+            Hi, I'm <span className="text-[#915EFF] typing"></span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I develop 3D visuals, user <br className="sm:block hidden" />
-            interfaces and web applications
+            I develop pretty and responsive UIs,<br/> robust and scalable backends,<br/>
+            NFT marketplaces, Web3, ChatGPT...
           </p>
         </div>
       </div>
+      <Earth />
       
-      <ComputersCanvas />
+      {/* <ComputersCanvas /> */}
 
       <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
         <a href="#about">
@@ -44,6 +57,7 @@ const Hero = () => {
           </div>
         </a>
       </div>
+      
     </section>
   );
 };

@@ -2,6 +2,9 @@ import { useState, useRef } from "react";
 import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
 
+import github from '../assets/github.png'
+import google from '../assets/google.png'
+
 import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
@@ -33,7 +36,7 @@ const Contact = () => {
           form_name: form.name,
           to_name: "Liron",
           from_email: form.email,
-          to_email: "contact@mail.com",
+          to_email: "janislee1204@mail.com",
           message: form.message,
         },
         "Jqq9AvwIuSjoMiA5c"
@@ -68,7 +71,14 @@ const Contact = () => {
       >
         <p className={styles.sectionSubText}>Get in touch</p>
         <h3 className={styles.sectionHeadText}>Contact.</h3>
-
+   
+        <div style={{display:'flex', gap:10, alignItems:'center', marginTop:10}}>
+          <img src={google} height={30} width={30}/> janislee1204@gmail.com
+        </div>
+        <div style={{display:'flex', gap:10, alignItems:'center'}}>
+          <a href="https://github.com/VenusWhisperer" target="_blank"><img src={github} height={30} width={30}/></a> github.com/VenusWhisperer
+        </div>
+    
         <form
           ref={formRef}
           onSubmit={handleSubmit}
@@ -99,7 +109,7 @@ const Contact = () => {
           <label className="flex flex-col">
             <span className="text-white font-medium mb-4">Your Message</span>
             <textarea
-              rows={7}
+              rows={4}
               name="message"
               value={form.message}
               onChange={handleChange}
