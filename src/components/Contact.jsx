@@ -78,6 +78,7 @@ const Contact = () => {
         <div style={{display:'flex', gap:10, alignItems:'center'}}>
           <a href="https://github.com/VenusWhisperer" target="_blank"><img src={github} height={30} width={30}/></a> github.com/VenusWhisperer
         </div>
+        
     
         <form
           ref={formRef}
