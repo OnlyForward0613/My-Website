@@ -25,19 +25,11 @@ import {
   threejs,
 } from "../assets";
 
+
+
 import {
-  cars,
-  hotel,
-  nft_marketplace,
-  nft1,
-  nft_minting,
-  shop,
-  translate,
-  online,
-  car,
-  canvan, 
-  mockup
-} from "../assets/projects";
+  nft0, nft1, nft2, tellman, gallery, bnb, appstore
+} from "../assets/works";
 
 export const navLinks = [
   {
@@ -224,16 +216,60 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Shop",
+    name: "BNB Online platform",
     description:
-      "React based platfrom for company to sell cars.",
+      "Online BNB platform for room offering",
+    tags: [
+      {
+        name: "NEXT",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "GraphQL",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Tainlwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: bnb,
+    to: 'https://wind-bnb-sepia.vercel.app/',
+    source_code_link: "https://github.com/VenusWhisperer/react-bnb.git",
+  },
+  {
+    name: "Platform for a small team",
+    description:
+      "The website for small team and collorboration.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Bootstrap",
+        color: "green-text-gradient",
+      },
+      {
+        name: "jQuery",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: tellman,
+    to: 'https://tellmann.co.za/',
+    source_code_link: "https://github.com/VenusWhisperer/tellman.git",
+  },
+  {
+    name: "NFT Marketplace and Gallery",
+    description:
+      "NFTs—Unique Digital Collectibles and Minting, and gallery.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "ERC721",
         color: "green-text-gradient",
       },
       {
@@ -241,218 +277,97 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: cars,
-    source_code_link: "https://github.com/",
+    image: nft0,
+    to: 'https://weirdos-nft.netlify.app/',
+    source_code_link: "https://github.com/VenusWhisperer/Weirdos-NFT.git",
   },
   {
-    name: "Hotel booking platform",
+    name: "National Cinema Voting System",
     description:
-      "This is online hetel booking platform.",
+      "A decentralized voting platform for movies.",
     tags: [
       {
-        name: "react",
+        name: "ERC721",
         color: "blue-text-gradient",
       },
       {
-        name: "graphQL",
+        name: "NEXT",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: hotel,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Clothes Shop",
-    description:
-      "Supermarket for selling clothes for people.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: shop,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Translation Platform",
-    description:
-      "Language translate for a lot of contries",
-    tags: [
-      {
-        name: "AI",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "NLP",
-        color: "green-text-gradient",
-      },
-      {
-        name: "react",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: translate,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Online learning",
-    description:
-      "Online learning including English, Developing, Game",
-    tags: [
-      {
-        name: "AI",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "React",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Django",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: online,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Mockup Design",
-    description:
-      "Smart phone mockup design using Figma, and responsive UI design",
-    tags: [
-      {
-        name: "React",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Figma",
-        color: "green-text-gradient",
-      },
-      {
-        name: "UI/UX",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: mockup,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Cars Platform",
-    description:
-      "Online car shops",
-    tags: [
-      {
-        name: "React",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "graphQL",
-        color: "green-text-gradient",
-      },
-      {
-        name: "NestJS",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: car,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Project Management",
-    description:
-      "Platform for dev management",
-    tags: [
-      {
-        name: "AI",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "NLP",
-        color: "green-text-gradient",
-      },
-      {
-        name: "react",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: canvan,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "NFT Minting",
-    description:
-      "NFT minting for NFT marketplace",
-    tags: [
-      {
-        name: "NFT",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Blockchain",
-        color: "green-text-gradient",
-      },
-      {
-        name: "reactJS",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: nft_minting,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "NFT Marketplace",
-    description:
-      "NFT marketplace for people.",
-    tags: [
-      {
-        name: "blockchain",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "NFT",
-        color: "green-text-gradient",
-      },
-      {
-        name: "nextJS",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: nft_marketplace,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "NFT Marketplace",
-    description:
-      "NFT marketplace website for users",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
+        name: "tailwind",
         color: "pink-text-gradient",
       },
     ],
     image: nft1,
-    source_code_link: "https://github.com/",
+    to: 'https://ethcinemanation.vercel.app/',
+    source_code_link: "https://github.com/VenusWhisperer/ETHCinemaNation.git",
+  },
+  {
+    name: "NFT Marketplace for end users",
+    description:
+      "NFT marketplace using ERC721 and starter project.",
+    tags: [
+      {
+        name: "Next",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "ERC721",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: nft2,
+    to: 'https://nft-marketplace-doingud.vercel.app/',
+    source_code_link: "https://github.com/VenusWhisperer/nft-markgetplace-doingud.git",
+  },
+  {
+    name: "Gallery site for several topics",
+    description:
+      "A proof of concept for a video streaming app.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Express",
+        color: "green-text-gradient",
+      },
+      {
+        name: "NUI",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: gallery,
+    to: 'https://view-web-app-client.vercel.app/',
+    source_code_link: "https://github.com/VenusWhisperer/view-web-app-client.git",
+  },
+  {
+    name: "App store",
+    description:
+      "App store for your favorite products.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "NEST",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Bootstrap",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: appstore,
+    to: 'https://apps.apple.com/us/app/favorite-photos-widget/id1589994536',
+    source_code_link: "https://github.com/VenusWhisperer/appstore-react.git",
   },
 ];
 
