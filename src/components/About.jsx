@@ -47,7 +47,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I'm a dedicated and efficient full-stack developer with 5+ years of experience in application layers, presentation layers, and databases. I also have 8+ years of experience as a senior front-end developer in the financial industry, specializing in responsive web design and mobile apps. I'm proficient in CSS and JS frameworks, with a strong understanding of UX and user psychology. Notable achievements include improving a website's conversion rate by 80% and leading a successful transition from LAMP to MERN stack, reducing latency by 40%. I'm now expanding my skills as a blockchain developer and excited about the potential it holds. Let's work together to create innovative solutions
+        A Full Stack Web Developer with a passion for MERN Stack and WordPress ,proficiency in HTML, CSS, JavaScript, React, Redux.js, Node.js, Next.js , MongoDB , Express.js, MUI and Generative AI is seeking opportunities to work in organizations that can challenge their abilities as a web developer. They are eager to undertake challenging projects and deliver exceptional results.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

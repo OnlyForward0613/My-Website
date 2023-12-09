@@ -7,6 +7,9 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 import unicorn from './unicorn.png'
+import avatar from "./avatar.jpg";
+import arc_company from "./ARC_BIG.png";
+import upwork_company from "./UPWK.png";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -21,6 +24,8 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import linkedin from "./linkedin.png";
+import phone from "./phone.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -60,5 +65,10 @@ export {
   carrent,
   jobit,
   tripguide,
-  unicorn
+  unicorn,
+  avatar,
+  arc_company,
+  upwork_company,
+  linkedin,
+  phone
 };

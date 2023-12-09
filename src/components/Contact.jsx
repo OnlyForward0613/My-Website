@@ -9,6 +9,7 @@ import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
+import { linkedin, phone } from "../assets";
 
 const Contact = () => {
   const formRef = useRef();
@@ -72,11 +73,17 @@ const Contact = () => {
         <p className={styles.sectionSubText}>Get in touch</p>
         <h3 className={styles.sectionHeadText}>Contact.</h3>
    
-        <div style={{display:'flex', gap:10, alignItems:'center', marginTop:10}}>
-          <img src={google} height={30} width={30}/> janislee1204@gmail.com
+        <div style={{display:'flex', alignItems:'center', marginTop:10}}>
+          <a href="https://jacksonmori.dev@gmail.com" target="_blank"></a><img src={google} height={30} width={30}/> <div style={{marginLeft : "10px"}}>jacksonmori.dev@gmail.com</div>
         </div>
-        <div style={{display:'flex', gap:10, alignItems:'center'}}>
-          <a href="https://github.com/VenusWhisperer" target="_blank"><img src={github} height={30} width={30}/></a> github.com/VenusWhisperer
+        <div style={{display:'flex', gap:10, alignItems:'center', marginTop:10}}>
+          <a href="https://github.com/jacksonmoridev0507" target="_blank"><img src={github} height={30} width={30}/></a> github.com/jacksonmoridev0507
+        </div>
+        <div style={{display:'flex', gap:10, alignItems:'center',marginTop:10}}>
+          <a href="ww.linkedin.com/in/jacksonmori" target="_blank"><img src={linkedin} height={30} width={30}></img></a> Jackson Mori
+        </div>
+        <div style={{display:'flex', gap:10, alignItems:'center',marginTop:10}}> 
+          <img src={phone} height={30} width={30}></img> +1 (203) 423 3572
         </div>
         
     
