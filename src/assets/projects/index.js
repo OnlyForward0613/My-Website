@@ -10,6 +10,7 @@ import canvan from './canvan.jpg'
 import online from './online.jpg'
 import mockup from './mockup.jpg'
 
+
 export {
   cars, hotel, nft1, nft_marketplace, nft_minting, shop, translate, mockup, canvan, car, online
 };
