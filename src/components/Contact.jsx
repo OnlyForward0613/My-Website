@@ -80,7 +80,7 @@ const Contact = () => {
           <a href="https://github.com/jacksonmoridev0507" target="_blank"><img src={github} height={30} width={30}/></a> github.com/jacksonmoridev0507
         </div>
         <div style={{display:'flex', gap:10, alignItems:'center',marginTop:10}}>
-          <a href="ww.linkedin.com/in/jacksonmori" target="_blank"><img src={linkedin} height={30} width={30}></img></a> Jackson Mori
+          <a href="https://linkedin.com/in/jacksonmori" target="_blank"><img src={linkedin} height={30} width={30}></img></a> Jackson Mori
         </div>
         <div style={{display:'flex', gap:10, alignItems:'center',marginTop:10}}> 
           <img src={phone} height={30} width={30}></img> +1 (203) 423 3572
