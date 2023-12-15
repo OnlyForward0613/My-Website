@@ -77,7 +77,7 @@ const Contact = () => {
           <a href="https://jacksonmori.dev@gmail.com" target="_blank"></a><img src={google} height={30} width={30}/> <div style={{marginLeft : "10px"}}>jacksonmori.dev@gmail.com</div>
         </div>
         <div style={{display:'flex', gap:10, alignItems:'center', marginTop:10}}>
-          <a href="https://github.com/jacksonmoridev0507" target="_blank"><img src={github} height={30} width={30}/></a> github.com/jacksonmoridev0507
+          <a href="https://github.com/superdev0816" target="_blank"><img src={github} height={30} width={30}/></a> github.com/superdev0816
         </div>
         <div style={{display:'flex', gap:10, alignItems:'center',marginTop:10}}>
           <a href="https://linkedin.com/in/jacksonmori" target="_blank"><img src={linkedin} height={30} width={30}></img></a> Jackson Mori
