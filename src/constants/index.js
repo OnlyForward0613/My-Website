@@ -246,7 +246,7 @@ const projects = [
     ],
     image: bnb,
     to: 'https://wind-bnb-sepia.vercel.app/',
-    source_code_link: "https://github.com/jacksonmoridev0507/bnb-onlinePlatform",
+    source_code_link: "https://github.com/superdev0816",
   },
   {
     name: "Platform for a small team",
@@ -268,7 +268,7 @@ const projects = [
     ],
     image: tellman,
     to: 'https://tellmann.co.za/',
-    source_code_link: "https://github.com/jacksonmoridev0507/next.js-chat-love",
+    source_code_link: "https://github.com/superdev0816",
   },
   {
     name: "NFT Marketplace and Gallery",
@@ -290,7 +290,7 @@ const projects = [
     ],
     image: nft0,
     to: 'https://weirdos-nft.netlify.app/',
-    source_code_link: "https://github.com/jacksonmoridev0507/nft_end_user",
+    source_code_link: "https://github.com/superdev0816",
   },
   {
     name: "National Cinema Voting System",
@@ -312,7 +312,7 @@ const projects = [
     ],
     image: nft1,
     to: 'https://ethcinemanation.vercel.app/',
-    source_code_link: "https://github.com/jacksonmoridev0507/voting_system",
+    source_code_link: "https://github.com/superdev0816",
   },
   {
     name: "NFT Marketplace for end users",
@@ -334,7 +334,7 @@ const projects = [
     ],
     image: nft2,
     to: 'https://nft-marketplace-doingud.vercel.app/',
-    source_code_link: "https://github.com/jacksonmoridev0507/nft_end_user",
+    source_code_link: "https://github.com/superdev0816",
   },
   {
     name: "Gallery site for several topics",
@@ -356,7 +356,7 @@ const projects = [
     ],
     image: gallery,
     to: 'https://view-web-app-client.vercel.app/',
-    source_code_link: "https://github.com/jacksonmoridev0507/view-web-app-client",
+    source_code_link: "https://github.com/superdev0816",
   },
   {
     name: "App store",
@@ -378,7 +378,7 @@ const projects = [
     ],
     image: appstore,
     to: 'https://apps.apple.com/us/app/favorite-photos-widget/id1589994536',
-    source_code_link: "https://github.com/jacksonmoridev0507/app_store",
+    source_code_link: "https://github.com/superdev0816",
   },
 ];
 
